@@ -7,7 +7,7 @@ package IndhuPackage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-	class LoginLogout {
+public class Indhu_Login { 
 		public static void main(String[] args) {
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
