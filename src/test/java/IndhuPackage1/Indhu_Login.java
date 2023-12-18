@@ -1,4 +1,4 @@
-package IndhuPackage;
+package IndhuPackage1;
 	import java.time.Duration;
 
 	import org.openqa.selenium.By;
@@ -11,6 +11,8 @@ public class Indhu_Login {
 		public static void main(String[] args) {
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
+			//driver.get("https://www.amazon.com/");
+			//driver.navigate().to("https://online.actitime.com/cisco2");
 			driver.get("https://online.actitime.com/cisco2");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
