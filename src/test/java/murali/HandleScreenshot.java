@@ -31,5 +31,4 @@ class HandleScreenshot {
 		destFile=new File(System.getProperty("user.dir")+"\\resources\\screenshots\\amazon_element.png");
 		FileUtils.copyFile(amazon_elementFile, destFile);
 	}
-
 }
