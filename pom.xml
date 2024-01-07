@@ -51,6 +51,16 @@
 			<version>5.2.3</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.learning</groupId>
+			<artifactId>basicsmaven</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>learning</groupId>
+			<artifactId>javaselenium</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
